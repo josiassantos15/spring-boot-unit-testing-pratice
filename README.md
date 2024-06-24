@@ -43,6 +43,10 @@ Esse comando irá:
 
 `mvn spring-boot:run`
 
+5. Para executar o projeto sem executar os testes:
+
+`mvn clean package '-Dmaven.test.skip=true'`
+
 Isso irá iniciar a aplicação Spring Boot na porta padrão 8080.
 
 ## Contribuição
